@@ -1,0 +1,5 @@
+[[headers]]
+  #define blah blah blah
+  for = "/*"
+    [headers.values]
+    Acces-Control-Allow-Origin = "https://comp-4537-lab-2-8ew2.onrender.com"
