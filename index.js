@@ -38,9 +38,7 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-// const fetch = require('node-fetch');
-const fetch = require('node-fetch-commonjs');
+const fetch = require('node-fetch');
 
 const cors = require('cors');
 app.use(
