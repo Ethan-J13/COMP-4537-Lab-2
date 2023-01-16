@@ -7,8 +7,8 @@ app.use(express.json()); // read JSON BODY
 app.use(express.urlencoded({ extended: true })); // read URL encoded body
 
 app.get('/', (req, res) => {
-    location.href = 'https://zesty-peony-887805.netlify.app/';
-    // res.sendFile('C:\\Desktop\\Work\\Term 4 - BCIT\\COMP 4537 - INTERNET SOFTWARE ARCH\\Lab 2\\COMP-4537-Lab-2\\form.html')
+    //window.location.href = 'https://zesty-peony-887805.netlify.app/';
+    res.sendFile('C:\\Desktop\\Work\\Term 4 - BCIT\\COMP 4537 - INTERNET SOFTWARE ARCH\\Lab 2\\COMP-4537-Lab-2\\form.html')
   });
 
 app.post('/chatbot', (req, res) => {
